@@ -54,4 +54,4 @@ streamlit run app.py
 ```
 
 ## Author
-Lahari Makkapati · [LinkedIn](https://www.linkedin.com/in/lahari-makkapati-2349aa41a)
+Lahari Makkapati 
