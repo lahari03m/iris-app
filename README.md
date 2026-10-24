@@ -6,6 +6,9 @@ A Streamlit web app that predicts the species of an Iris flower (setosa, versico
 
 ![App screenshot](output.png)
 
+## Dataset
+The Iris dataset (150 samples, 4 features, 3 classes) from scikit-learn. 
+
 ## Features
 - Four sliders for sepal length, sepal width, petal length and petal width
 - Predict button that shows the predicted species
@@ -13,6 +16,18 @@ A Streamlit web app that predicts the species of an Iris flower (setosa, versico
 
 ## Model
 I trained and compared several classifiers in Google Colab: Logistic Regression, KNN, SVM, Naive Bayes, Decision Tree, Random Forest, AdaBoost and XGBoost. Almost all scored 100% on a 30-sample test set (AdaBoost 93%). Because Iris is small and easy, the models are hard to tell apart. The deployed app uses **Random Forest**, which is simple to deploy and performed the same as the others.
+
+## Model comparison (30-sample test set)
+| Model | Accuracy |
+|---|---|
+| Logistic Regression | 1.00 |
+| KNN | 1.00 |
+| SVM | 1.00 |
+| Naive Bayes | 1.00 |
+| Decision Tree | 1.00 |
+| Random Forest | 1.00 |
+| XGBoost | 1.00 |
+| AdaBoost | 0.93 |
 
 ## Tech stack
 Python, NumPy, scikit-learn, Streamlit
@@ -35,4 +50,4 @@ streamlit run app.py
 ```
 
 ## Author
-Lahari Makkapati · www.linkedin.com/in/lahari-makkapati-2349aa41a
+Lahari Makkapati · [LinkedIn](https://www.linkedin.com/in/lahari-makkapati-2349aa41a)
