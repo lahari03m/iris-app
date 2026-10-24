@@ -35,11 +35,15 @@ Python, NumPy, scikit-learn, Streamlit
 ## Project structure
 ```
 iris-app/
+├── IRIS_DATASET.ipynb  # Training notebook
 ├── app.py              # Streamlit app
-├── requirements.txt    # Dependencies
 ├── output.png      # App screenshot
-└── IRIS_DATASET.ipynb  # Training notebook
+└── requirements.txt    # Dependencies
+
 ```
+
+## Limitations
+Iris is a small, easy dataset, so near-perfect accuracy doesn't show how the model would do on harder problems.
 
 ## Run locally
 ```bash
